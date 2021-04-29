@@ -1,0 +1,325 @@
+@media only screen and (max-width: 768px) {
+    /*Icons*/
+    div.icons {
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    /*Header*/
+    header div.container-header {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 430px;
+        top: 30%;
+        left: 5%;
+    }
+
+    div.container-header h1 {
+        font-size: 30px;
+    }
+
+    div.container-header p.texto {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    div.container-header a.btn-app {
+        padding: 10px 0px;
+    }
+
+    /*Marcas*/
+    section#marcas {
+        margin-bottom: 50px;
+    }
+
+    div.conteudo-marcas {
+        padding: 20px 40px;
+    }
+
+    /*Conteudo*/
+    section#content {
+        margin: 0px;
+    }
+
+    section#content img.phone {
+        margin-left: 0px;
+    }
+
+    div.conteudo-infos h1 {
+        font-size: 25px;
+    }
+
+    div.conteudo-infos p.texto-infos {
+        line-height: 25px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    div.conteudo-infos a.itens {
+        line-height: 45px;
+    }
+
+    a.itens h3 {
+        font-size: 13px;
+    }
+
+    div.info-final a.btn-play {
+        padding: 10px 15px;
+    }
+
+
+    /*Conteudo Grid*/
+    section#grid div.grid-container {
+        padding: 60px 65px;
+        gap: 50px;
+    }
+
+    div.grid-item img, h2 {
+        margin-bottom: 25px;
+    }
+
+    div.grid-item p {
+        line-height: 25px;
+    }
+
+
+
+    /*Conteudo Texto*/
+    div#container-texto {
+        margin: 70px;
+    }
+
+    /*Contato- email*/
+    div.e-mail input {
+        width: 45%;
+    }
+
+    div.e-mail img {
+        position: relative;
+        right: 5%;
+    }
+}
+
+
+@media only screen and (max-width: 585px) {
+    /*Icons*/
+    div.icons {
+        margin-right: 20px;
+    }
+
+    /*Header*/
+    div.container-header h1 {
+        font-size: 25px;
+    }
+
+    div.container-header p.texto {
+        margin-bottom: 15px;
+        font-size: 14px;
+        padding: 0px 100px 0px 5px;
+    }
+
+    div.container-header a.btn-app:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    div.container-header a.btn-app {
+        padding: 5px 0px;
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+
+    /*Marcas*/
+    div.conteudo-marcas img {
+        width: 80%;
+    }
+
+
+    /*Conteudo*/
+    section#content {
+        margin-bottom: 40px;
+    }
+    
+    section#content img.phone {
+        width: 80%;
+    }
+
+    div.conteudo-infos h1 {
+        font-size: 20px;
+    }
+
+    div.conteudo-infos p.texto-infos {
+        line-height: 20px;
+        font-size: 13px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    div.conteudo-infos a.itens {
+        line-height: 30px;
+    }
+
+    a.itens h3 {
+        font-size: 10px;
+    }
+
+    div.conteudo-infos div.info-final {
+        margin-top: 20;
+    }
+
+    div.info-final a.btn-play {
+        margin-right: 10px;
+        padding: 15px 5px;
+    }
+
+    div.info-final a.btn-play p {
+        font-size: 13px;
+    }
+
+    
+    /*Conteudo Grid*/
+    section#grid div.grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /*Contato*/
+    div.contato-content h1 {
+        margin-bottom: 30px;
+    }
+
+    div.e-mail input {
+        width: 80%;
+    }
+
+    div.e-mail img {
+        position: relative;
+        right: 8%;
+    }
+
+}
+
+
+@media only screen and (max-width: 425px) {
+    /*Icons*/
+    div.icons {
+        margin-right: 0px;
+    }
+
+    /*Header*/
+    header div.container-header {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: absolute;
+        top: 25%;
+        left: 5%;
+    }
+
+    div.container-header h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    div.container-header p.texto {
+        font-size: 13px;
+    }
+
+    /*Conteudo*/
+    section#content {
+        display: grid;
+        grid-template-columns: 2fr;
+        margin: 50px 60px;
+    }
+
+    a.itens h3 {
+        font-size: 12px;
+    }
+
+    /*Conteudo Grid*/
+    section#grid div.grid-container {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+
+    
+    /*Conteudo Texto*/
+    div#container-texto {
+        margin: 35px;
+    }
+
+    div#container-texto p.texto-content {
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    /*Contato*/
+    div.contato-content h1 {
+        font-size: 18px;
+    }
+
+    div.e-mail input {
+        width: 70%;
+    }
+
+    div.e-mail img {
+        right: 11%;
+    }
+
+    /*Footer*/
+    footer p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /*Nav*/
+    div.container-nav {
+        padding: 15px 20px;
+    }
+
+    /*Header*/
+    header div.container-header{
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+
+    div.container-header p.texto {
+        margin-bottom: 2px;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+    /*Header*/
+    div.container-header h1 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    div.container-header a.btn-app {
+        padding: 2px 0px;
+        width: 140px;
+    }
+
+    div.container-header a.btn-app p {
+        font-size: 14px;
+        color: white;
+    }
+
+    /*Contato*/
+    div.e-mail input {
+        width: 75%;
+    }
+
+    div.e-mail img {
+        right: 13%;
+    }
+
+    /*Footer*/
+    footer {
+        margin: 50px;
+    }
+}

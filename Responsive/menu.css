@@ -1,0 +1,60 @@
+@media only screen and (max-width: 768px) {
+    /*Nav*/
+    div.container-nav ul.menu {
+        display: block;
+        margin-left: 0px;
+    }
+
+    /*Icones*/
+    div.container-nav .btnMenu {
+        display: block;
+        background-repeat: no-repeat;
+        background-position: left;
+        text-indent: -9999px;
+        padding: 15px;
+    }
+
+    .btnMenu_Open {
+        background-image: url(../img/menu.png);
+    }
+
+    .btnMenu_Close {
+        background-image: url(../img/close.png);
+        background-color: #525252;
+        margin: 0px 50px;
+    }
+
+    /*Menu*/
+    .menu {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translateY(-100%);
+        transition: transform 200ms linear;
+    }
+
+    .menu_Open {
+        transform: translateY(15%);
+        z-index: 1;
+    }
+
+    .menu-item {
+        padding: 30px 20px;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: #faf9f9;
+        border-bottom: 3px solid #46b077;
+    }
+
+    ul.menu li.menu-item {
+        margin: 0px 50px;
+    }
+
+    ul.menu li.menu-item a.menu-item-action {
+        color: #46b077;
+        font-weight: 600;
+    }
+
+    
+}

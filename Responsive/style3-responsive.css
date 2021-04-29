@@ -1,0 +1,123 @@
+@media only screen and (max-width: 425px) {
+    /*Icons*/
+    div.icons {
+        margin-right: 0px;
+    }
+
+    /*Header*/
+    header div.container-header {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: absolute;
+        top: 25%;
+        left: 5%;
+    }
+
+    div.container-header h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    div.container-header p.texto {
+        font-size: 13px;
+    }
+
+    /*Conteudo*/
+    section#content {
+        display: grid;
+        grid-template-columns: 2fr;
+        margin: 50px 60px;
+    }
+
+    a.itens h3 {
+        font-size: 12px;
+    }
+
+    /*Conteudo Grid*/
+    section#grid div.grid-container {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+
+    
+    /*Conteudo Texto*/
+    div#container-texto {
+        margin: 35px;
+    }
+
+    div#container-texto p.texto-content {
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    /*Contato*/
+    div.contato-content h1 {
+        font-size: 18px;
+    }
+
+    div.e-mail input {
+        width: 70%;
+    }
+
+    div.e-mail img {
+        right: 11%;
+    }
+
+    /*Footer*/
+    footer p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /*Nav*/
+    div.container-nav {
+        padding: 15px 20px;
+    }
+
+    /*Header*/
+    header div.container-header{
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+
+    div.container-header p.texto {
+        margin-bottom: 2px;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+    /*Header*/
+    div.container-header h1 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    div.container-header a.btn-app {
+        padding: 2px 0px;
+        width: 140px;
+    }
+
+    div.container-header a.btn-app p {
+        font-size: 14px;
+        color: white;
+    }
+
+    /*Contato*/
+    div.e-mail input {
+        width: 75%;
+    }
+
+    div.e-mail img {
+        right: 13%;
+    }
+
+    /*Footer*/
+    footer {
+        margin: 50px;
+    }
+}
